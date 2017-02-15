@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/tcarrel/dev/580'
+let g:netrw_dirhist_2='/home/tcarrel/dev/checklines'
+let g:netrw_dirhist_3='/home/tcarrel/dev/Final_Project/shader_to_structs'
+let g:netrw_dirhist_4='/home/tcarrel/dev/340/CSCI340-Thomas-Carrel/src'
+let g:netrw_dirhist_5='/home/tcarrel/dev/340/kernel/linux-4.4.0/fs/proc'
+let g:netrw_dirhist_6='/home/tcarrel/dev/Final_Project/shader_to_structs'
