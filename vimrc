@@ -1,3 +1,10 @@
+
+call pathogen#infect()
+call pathogen#helptags()
+
+let g:glsl_default_version = 'glsl450'
+" let g:glsl_file_extensions = '*.glsl, *.vsh, *.fsh, *.vert, *.tesc, *.tese, *.geom, *.frag, *.comp'
+
 set nocompatible              " be iMproved required
 filetype off                  " required
 
@@ -30,6 +37,9 @@ Plugin 'VundleVim/Vundle.vim'
 Bundle 'Valloric/YouCompleteMe'
 
 call vundle#end()            " required
+
+
+
 filetype plugin indent on    " required
 
 
@@ -46,9 +56,9 @@ autocmd FileType html set tabstop=4|set shiftwidth=4|set expandtab|set autoinden
 autocmd FileType gpl  set tabstop=2|set shiftwidth=2|set expandtab|set autoindent
 autocmd FileType y    set tabstop=2|set shiftwidth=2|set expandtab|set autoindent
 autocmd FileType l    set tabstop=2|set shiftwidth=2|set expandtab|set autoindent
-au BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl set filetype=glsl
+" au BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl set filetype=glsl
 au BufRead,BufNewFile *.gpl set filetype=gpl
-set syntax=glsl
+" set syntax=glsl
 autocmd FileType glsl set tabstop=2|set shiftwidth=2|set expandtab|set autoindent
 :hi Comment ctermfg=cyan cterm=none
 :hi Error ctermbg=white ctermfg=red cterm=underline
